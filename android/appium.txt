@@ -1,0 +1,12 @@
+[caps]
+platformName = "Android"
+platformVersion = "5.0.1"
+deviceName = "Android"
+avd = "Nexus_5_API_19_x86"
+app = "./MyApp.apk"
+
+[appium_lib]
+debug = true
+wait = 30
+export_session = true
+require = ["./lib/pages"]

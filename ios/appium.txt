@@ -1,0 +1,12 @@
+[caps]
+platformName = "iOS"
+platformVersion = "8.4"
+deviceName = "iPhone Simulator"
+app = "./MyApp.app.zip"
+waitForAppScript = true
+
+[appium_lib]
+debug = true
+wait = 30
+export_session = true
+require = ["./lib/pages"]
